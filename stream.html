@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+    <title>Faker</title>
+</head>
+<body>
+    <header>
+        <h1>Lee Sang-Hyeok (Faker)</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trayectoria.html">Trayectoria</a></li>
+            <li><a href="stream.html">Stream</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="bloq">
+                    <h2>En la actualidad, sigue por Twitch.</h2>
+                </div>
+            <div class="bloq">
+                <img id="imagen" src="img/fakerstream2.jpg">
+                <img id="imagen" src="img/fakerstream.png">
+
+                <p id="twitch-embed"></p>
+
+                
+            
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        Copyright 2020 KEKW
+    </footer>
+</body>
+
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+<script type="text/javascript">
+  new Twitch.Embed("twitch-embed", {
+    width: 854,
+    height: 480,
+    channel: "faker",
+    // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+    parent: ["embed.example.com", "othersite.example.com"]
+  });
+</script>
+
+</html>
