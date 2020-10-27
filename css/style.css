@@ -1,4 +1,30 @@
-span{
-    height:100px;width:100px;
-    background-color:lightyellow;
+/*span{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    border:1px solid black;
+}*/
+span.a{
+    /*color:red;*/
+    height:100px;
+    width:100px;
+    background-color:yellow;
+}
+span.b{
+    /*color:red;*/
+    height:100px;
+    width:100px;
+    background-color:yellow;
+}
+span.c{
+    /*color:red;*/
+    height:100px;
+    width:100px;
+    background-color:yellow;
+}
+span.d{
+    /*color:red;*/
+    height:100px;
+    width:100px;
+    background-color:yellow;
 }
